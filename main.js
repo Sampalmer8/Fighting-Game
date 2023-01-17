@@ -8,7 +8,7 @@ if (playerTurn === true) {
 
   // Clicked on Middle Child
   function middleClick() {
-    let randChild = Math.floor(Math.random * 20 + 2);
+    let randChild = Math.floor(Math.random() * 20 + 20);
     console.log(randChild);
     healthYe.style.width -= healthYe.offsetWidth - randChild;
     playerTurn = false;
@@ -16,7 +16,8 @@ if (playerTurn === true) {
 
   // Clicked on Wet Dreamz
   function wetClick() {
-    let randWet = Math.floor(Math.random * 60 + 5);
+    let randWet = Math.floor(Math.random() * 60 + 5);
+    console.log(randWet);
     playerTurn = false;
   }
 } else {

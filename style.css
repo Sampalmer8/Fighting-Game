@@ -3,15 +3,6 @@ html {
   background-size: cover;
 }
 
-#top {
-  background-color: rgba(255, 255, 255, 0.39);
-  padding: 10px;
-  width: 300px;
-  text-align: center;
-  margin: auto;
-  border-radius: 2000px;
-}
-
 #middleChild {
   position: absolute;
   top: 80%;
@@ -43,42 +34,61 @@ button {
   border-radius: 100px;
 }
 
+#health {
+  margin: 0 auto;
+  width: 690px;
+}
+
+#title {
+  float: left;
+  text-align: center;
+}
+
 #outerCole {
+  float: left;
   background-color: lightgray;
   width: 210px;
   height: 26px;
   border-radius: 20px;
-  position: absolute;
-  top: 20%;
-  left: 16%;
+  width: 210px;
+  height: 26px;
+  margin-top: 25px;
+  margin-right: 25px;
 }
 
 #innerCole {
   background-color: rgb(20, 194, 20);
   width: 200px;
   height: 20px;
-  border-radius: 20px;
-  position: absolute;
-  top: 11.2%;
-  left: 2.5%;
+  border-radius: 15px;
+  width: 200px;
+  height: 20px;
+  top: 10%;
+  margin: 0 auto;
+  position: relative;
 }
 
 #outerKanye {
+  float: right;
   background-color: lightgray;
   width: 210px;
   height: 26px;
   border-radius: 20px;
-  position: absolute;
-  top: 20%;
-  left: 55%;
+  width: 210px;
+  height: 26px;
+  margin-top: 25px;
+  margin-right: 10px;
+  display: block;
 }
 
 #innerKanye {
   background-color: red;
   width: 200px;
   height: 20px;
-  border-radius: 20px;
-  position: absolute;
-  top: 11.2%;
-  left: 2.5%;
+  border-radius: 15px;
+  width: 200px;
+  height: 20px;
+  top: 10%;
+  margin: 0 auto;
+  position: relative;
 }
