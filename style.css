@@ -42,6 +42,7 @@ button {
 #title {
   float: left;
   text-align: center;
+  color: whitesmoke;
 }
 
 #outerCole {
@@ -54,6 +55,7 @@ button {
   height: 26px;
   margin-top: 25px;
   margin-right: 25px;
+  padding-left: 10px;
 }
 
 #innerCole {
@@ -64,7 +66,6 @@ button {
   width: 200px;
   height: 20px;
   top: 10%;
-  margin: 0 auto;
   position: relative;
 }
 
@@ -77,18 +78,50 @@ button {
   width: 210px;
   height: 26px;
   margin-top: 25px;
-  margin-right: 10px;
-  display: block;
+  margin-right: -5px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
 }
 
 #innerKanye {
   background-color: red;
-  width: 200px;
   height: 20px;
   border-radius: 15px;
   width: 200px;
   height: 20px;
   top: 10%;
-  margin: 0 auto;
   position: relative;
+}
+
+#damageYe {
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  font-size: 50px;
+  color: red;
+  font-family: Stencil Std, fantasy;
+  transform: rotate(20deg);
+}
+
+#damageCole {
+  position: absolute;
+  top: 20%;
+  right: 75%;
+  font-size: 50px;
+  color: red;
+  font-family: Stencil Std, fantasy;
+  transform: rotate(-20deg);
+}
+
+#playerTurn {
+  width: 300px;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: rgb(20, 194, 20);
 }
