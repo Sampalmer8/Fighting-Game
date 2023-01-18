@@ -125,3 +125,17 @@ button {
   text-align: center;
   color: rgb(20, 194, 20);
 }
+
+#winner {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  font-size: 50px;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+  color: white;
+  font-family: cursive;
+  text-shadow: 2px 2px 4px #000000;
+  display: none;
+}
